@@ -8,9 +8,9 @@ public class SimonSays {
         Scanner in = new Scanner(System.in);
 
         int n = in.nextInt();
-        String name = in.next();
+        in.nextLine();
 
-        for(int i = 0; i <= n; i++){
+        for(int i = 0; i < n; i++){
             System.out.println(i);
             String line = in.nextLine();
             String[] words = line.split(" ");
