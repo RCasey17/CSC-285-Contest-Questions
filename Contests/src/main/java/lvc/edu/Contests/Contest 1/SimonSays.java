@@ -11,7 +11,6 @@ public class SimonSays {
         in.nextLine();
 
         for(int i = 0; i < n; i++){
-            System.out.println(i);
             String line = in.nextLine();
             String[] words = line.split(" ");
             if(words.length > 2 && words[0].equals("Simon") && words[1].equals("says")){
